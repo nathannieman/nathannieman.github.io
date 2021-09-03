@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box; 	user-select: none;}
+
+body 
+{
+	background-image: url('../img/cork-board.png');
+}
+
+form
+{
+	font-family: 'Righteous', cursive;
+	font-size: 25px;
+	background-image: url('../img/floor-tile.png');
+	padding: 25px;
+	margin: 0px auto;
+	text-align: center;
+	width: 800px;
+}
+
+#nameForm
+{
+	border: 15px dotted #FF4500; 
+	border-top: none;
+	width: 840px;
+	margin: 0px auto;
+}
+
+button.play, button.clear
+{
+  outline:none;
+  height: 40px;
+  text-align: center;
+  width: 130px;
+  border-radius:40px;
+  border: 2px solid #FF4500;
+  color: #FF4500;
+  letter-spacing: 1px;
+  text-shadow: 0;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button.play:hover 
+{
+   color:white;
+   background: green;
+	border: none;
+}
+
+button.clear:hover
+{
+	color:white;
+   background: red;
+	border: none;
+}
+
+#buttonSpace
+{
+	padding: 30px;
+}
+
+h2#game-intro
+{
+	font-size: 125px;
+	font-family: 'Righteous', cursive;
+	text-align: center;
+	margin: 20px;
+	color: #FF4500;
+	padding: 15px;
+}
+
+div#game-board 
+{
+	overflow: hidden;
+	margin: 30px auto;
+	width: 605px;
+}
+
+input
+{
+	height: 25px;
+	width: 150px;
+}
+
+div[id^="row"]
+{
+	clear: both;
+}
+
+div[id^="row"] div
+{
+	border: 5px double #FF4500;
+	height: 200px;
+	width: 200px;
+	float: left;
+	text-align: center;
+	font-family: 'Stick', sans-serif;
+	font-size: 140px;
+	cursor: pointer;
+	animation: color-change 15s infinite;
+}
+
+div#row1 div 
+{
+	border-top: none;
+}
+
+div#row3 div 
+{
+	border-bottom: none;
+}
+
+div[id^=row] div:first-child 
+{
+	border-left: none
+}
+
+div[id^=row] div:last-child 
+{
+	border-right: none
+}
+
+div#play-button
+{
+	display: flex;
+   justify-content: center;
+   align-items: center;
+	margin-top: 65px;
+	margin-bottom: 20px;
+}
+
+#playGame
+{
+	outline:none;
+	text-align: center;
+	border: 2px solid #FF4500;
+	color: #FF4500;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.25s ease;
+	height: 100px;
+   width: 200px;
+   border-radius: 50px;
+   animation: glow 1s infinite ;
+	font-size: 30px;
+	font-family: 'Righteous', cursive;
+}
+
+@keyframes glow
+{
+  0%{
+  box-shadow: 5px 5px 20px rgb(93, 52, 168),-5px -5px 20px rgb(93, 52, 168);}
+  
+  50%{
+  box-shadow: 5px 5px 20px rgb(81, 224, 210),-5px -5px 20px rgb(81, 224, 210)
+  }
+  100%{
+  box-shadow: 5px 5px 20px rgb(93, 52, 168),-5px -5px 20px rgb(93, 52, 168)
+  }
+}
+
+@keyframes color-change 
+{
+  0% { color: #FF7F50; }
+  20% { color: #FF6347; }
+  40% { color: #F08080; }
+  60% { color: #FF4500; }
+  80% { color: #C71585; }
+  100% { color: #FFA500; }
+}

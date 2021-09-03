@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo&display=swap');
+body
+{
+	text-align: center;
+	background-color: #F08080;
+}
+
+ul.menu 
+{
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+  background-color: FireBrick;
+  font-family: 'Geo', sans-serif;
+  font-size: 25px;
+	
+}
+
+ul
+{
+	list-style-position: inside;
+	text-align: justify;
+}
+
+li a 
+{
+  display: block;
+  color: Azure;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+
+li a:hover 
+{
+  background-color: IndianRed;
+  width: 100px;
+  text-shadow: 2px 2px 5px Maroon;
+  text-decoration: underline;
+}
+
+li a.active 
+{
+  background-color: Maroon;
+  text-decoration: underline;
+}
+
+h1
+{
+	font-family: 'Geo', sans-serif;
+	font-size: 60px;
+	background-color: FireBrick;
+}
+
+h2
+{
+	font-size: 40px;
+	font-family: 'Geo', sans-serif;
+	background-color: FireBrick;
+	width: 400px;
+	margin: 10px auto;
+	padding: 15px;
+}
+
+h3
+{
+	font-size: 30px;
+	font-family: 'Geo', sans-serif;
+}
+
+h3.covid
+{
+	font-size: 30px;
+	font-family: 'Geo', sans-serif;
+	background-color: FireBrick;
+	width: 600px;
+	margin: 5px auto;
+	padding: 10px;
+}
+
+h3.meats
+{
+	position: absolute;
+   top: 58.5%;
+	left: 48%;
+}
+
+h3.vegetables
+{
+	position: absolute;
+	top: 86.5%;
+	left: 47%;
+}
+
+h3.infoheader
+{
+	position: absolute;
+	top: 153%;
+	left: 43%;
+}
+
+h3.crust-header
+{
+	position: absolute;
+	top: 115%;
+	left: 48%;
+}
+
+h3.time-header
+{
+	position: absolute;
+	top: 134%;
+	left: 48%;
+}
+
+select.time
+{
+	position: absolute;
+	top: 141%;
+	left: 47%;
+	font-size: 20px;
+}
+
+h2.headtwo
+{
+	width: 250px;
+}
+
+p.about
+{
+	font-size: 25px;
+	font-family: 'Geo', sans-serif;
+	text-align: justify;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form.contactForm
+{
+	font-size: 25px;
+	font-family: 'Geo', sans-serif;
+	border: 5px Solid DarkRed;
+	padding: 5px;
+}
+
+div.ingredient-block
+{
+   display: flex;
+   margin: 15px auto;
+   background-color: FireBrick;
+   padding: 24px;
+}
+
+div.customer-block
+{
+   display: flex;
+   margin: 15px auto;
+   background-color: FireBrick;
+   padding: 45px;
+}
+
+div.floating-ingredient
+{
+   width: 140px;
+   margin: 20px;
+}
+
+div.option
+{
+   width: 100px;
+   margin: 10px;
+}
+
+div.form-order
+{
+   margin: 30px auto;
+   width: 750px;
+}
+
+input.buttons, select.size
+{
+	font-size: 25px;
+}
+
+div
+{
+	font-size: 25px;
+	font-family: 'Geo', sans-serif;
+}
+
+select.states
+{
+	font-size: 16px;
+	width: 175px;
+}
+
+div.fineprint
+{
+	font-size: 18px;
+}
+
+textarea.contactmessage
+{
+	margin: 10px auto;
+	position: absolute;
+	left: 40%;
+	top: 89%;
+}
+
+input.submit-button
+{
+	margin: 10px auto;
+	position: absolute;
+	top: 104%;
+	left: 46%;
+	font-size: 20px;
+	font-family: 'Geo', sans-serif;
+}
+
+input.reset-button
+{
+	margin: 10px auto;
+	position: absolute;
+	top: 104%;
+	font-size: 20px;
+	font-family: 'Geo', sans-serif;
+}
+
+input.buttons
+{
+	font-family: 'Geo', sans-serif;
+}
+
+div.delivery-option
+{
+	position: absolute;
+	top: 145%;
+	left: 44%;
+}
+
+div.takeout-option
+{
+	position: absolute;
+	top: 145%;
+	left: 52%;
+}
+
+div.takeout
+{
+	position: absolute;
+	top: 138%;
+	left: 60%;
+}
+
+div.delivery
+{
+	position: absolute;
+	top: 138%;
+	left: 34%;
+}
+
+div.border
+{
+	border: 5px Solid DarkRed;
+}
+
+img.image
+{
+	border: 3px Solid DarkRed;
+}
+
+div.covidG
+{
+	width: 35%;
+	margin-left: auto; 
+	margin-right: auto;
+	position: absolute;
+	top: 64%;
+	left: 15%;
+}
+
+div.covidE
+{
+	width: 45%;
+	margin-left: auto; 
+	margin-right: auto;
+	position: absolute;
+	top: 64%;
+	left: 50%;
+}
+
+h2.firstPizza 
+{
+	width: 500px;
+}
+
+div.address
+{
+	position: absolute;
+	left: 7%;
+	top: 50%;
+	padding: 15px;
+	background-color: FireBrick; 
+}
+
+div.hours
+{
+	position: absolute;
+	left: 75%;
+	top: 50%;
+	padding: 15px;
+	background-color: FireBrick;
+}
+
+p.home
+{
+	font-size: 40px;
+	font-weight: bold;
+}

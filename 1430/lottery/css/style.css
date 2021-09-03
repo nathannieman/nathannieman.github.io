@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+html
+{
+	background-image: url(../img/gold_scale.png);
+	text-align: center;
+	margin: 10px auto;
+	padding: 25px;
+	width: 1500px;
+}
+
+h1 
+{
+	font-size: 75px; 
+	padding: 60px;
+	color: #B22222;
+	background-color: #FF8C00;
+	font-family: 'Monoton', cursive;
+}
+
+h2
+{
+	font-size: 40px;
+	padding: 20px;
+	background-color: #D2691E;
+	font-family: 'Monoton', cursive;
+	color: #800000;
+}
+
+div
+{
+	background-color: #A52A2A;
+	padding: 45px;
+
+}
+
+div.lottery
+{
+	font-size: 30px;
+	color: #8B0000;
+	background-color: #DAA520;
+	font-family: 'Monoton', cursive;
+	animation-name: lottery;
+	animation-duration: 30s;
+}
+
+@keyframes lottery {
+  0%   {color: red;}
+  25%  {color: purple;}
+  50%  {color: blue;}
+  100% {color: green;}
+}
+
+div.box
+{
+   animation-name: colorChange;
+   animation-duration: 30s;
+}
+
+@keyframes colorChange {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+button
+{
+	padding: 10px;
+	margin:  7px;
+	cursor: pointer;
+}

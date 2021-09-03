@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tic-Tac-Toe</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<script src="js/script.js"></script>
+	</head>
+	<body onload="gameStarted()">
+		<div id="nameForm">
+			<form>
+				<h1>TIC-TAC-TOE</h1><br>
+				<label>Player 1's Name:</label>
+				<input type="text" id="playerOne"><br><br>
+				<label>Player 2's Name:</label>
+				<input type="text" id="playerTwo">
+				<div id="buttonSpace">
+					<button type="button" onclick="gameStarted()" class="play">Play</button>
+					<button type="reset" value="Reset" class="clear">Clear</button>
+				</div>
+			</form>
+		</div>
+		<h2 id="game-intro">TIC-TAC-TOE</h2>
+		<div id="game-board">
+		</div>
+		<div id="play-button">
+			<button type="button" id="playGame" onclick="gameStarted();">Play Again</button>
+		</div>
+		<audio id="audioWon" src="won.mp3"></audio>
+		<audio id="audioLost" src="tie.mp3"></audio>
+	</body>
+</html>

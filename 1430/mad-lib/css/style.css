@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box; overflow: hidden;}
+
+html
+{
+	background-image: url(../img/gravel.png);
+	font-family: 'Averia Gruesa Libre', cursive;
+}
+
+h1
+{
+	text-align: center;
+	padding: 20px;
+	font-size: 65px;
+	color: #191970;
+}
+
+p
+{
+	text-align: center;
+	width: 1300px;
+	font-size: 30px;
+	margin: 10px auto;
+	color: #483D8B;
+}

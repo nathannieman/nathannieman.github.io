@@ -1,0 +1,246 @@
+/*Sets default margin and padding for the page.*/
+*
+ {
+	margin: 0;
+	padding: 0; 
+ } 
+/*Sets background color to black.*/
+body
+{
+	background-color: black;
+}
+/*Set margin to auto to center the bin div, set height, width, color and position of the frame/canvas for the divs. z-index set to zero to prevent shapes from going behind the div.*/
+div.bin
+ {
+	margin: auto;
+	height: 600px;
+	width: 400px;
+	position: absolute;
+	top: 0;
+	bottom: 0; 
+	left: 0;
+	right: 0;
+	background-color: Salmon;
+	z-index: 0;
+} 
+/*Position the div for the entire cat which has all the divs nested.*/
+div.cat 
+{
+	position: relative;
+	top: 300px;
+	left: 100px;
+}
+/*Create a rounded square shape for the head and set the color and size.*/
+div.face 
+{ 
+	background-color: BurlyWood;  
+	height: 90px;
+	width: 150px;
+	border-radius: 30px;
+} 
+/*Create the outside of the ears having the bottom border colored and the rest transparent making a triangle.*/
+div.earLeft, div.earRight
+{   
+	width: 0;
+	height: 0;
+	border-bottom: 50px solid BurlyWood;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	position: relative;
+}	
+/*Position and rotate the ear so it doesn't stick straight up.*/
+div.earLeft 
+{	
+	bottom: 35px;
+	transform: rotate(-35deg);
+}
+/*Position and rotate the ear so it doesn't stick straight up.*/
+div.earRight
+{ 
+	bottom: 85px;
+	left: 110px;
+	transform: rotate(35deg);   
+}
+/*Create another triangle shape and set it to a skin tone to create the inner ear. With the div nested into the outer ear it will rotate with the outer ear.*/
+div.innerEarLeft
+{
+	width: 0;
+	height: 0;
+	border-bottom: 45px solid #ffbb99;
+	border-left: 25px solid transparent;
+	right: 25px;
+	position: relative;
+}  
+/*Create another triangle shape and set it to a skin tone to create the inner ear. With the div nested into the outer ear class it will rotate with the outer ear.*/
+div.innerEarRight 
+{
+	width: 0;
+	height: 0;
+	border-bottom: 45px solid #ffbb99;
+	border-right: 25px solid transparent;
+	position: relative;
+}   
+/*Create the white part of the eyes using circles.*/
+div.eyeLeft, div.eyeRight 
+{
+	background: white;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	position: relative
+} 
+/*Set position of the left eye.*/
+div.eyeLeft 
+{
+	bottom: 75px;
+	left: 30px; 
+} 
+/*Set position of the right eye.*/
+div.eyeRight
+{ 
+	bottom: 105px;
+	left: 90px;
+} 
+/*Create the eye color and make them into the shape of cat eyes as squished ovals.*/
+div.eyeballs 
+{ 
+	background: #0066ff;
+	height: 24px;
+	width: 6px;
+	border-radius: 50%;
+	position: relative;
+	top: 3px;
+	left: 12px;
+}
+/*Create a triangle nose and set the position and color.*/
+div.nose 
+{
+	height: 0;
+	width: 0;
+	border-top: 8px solid #404040;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	position: relative;
+	bottom: 110px;
+	left: 68px;
+}
+/*Create a mouth as an upside down trapezoid. Set the position and color.*/
+div.mouth 
+{	
+	border-top: 10px solid #ff6666;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	height: 0;
+	width: 10px;
+	position: relative;
+	bottom: 100px;
+	left: 65px;
+}
+/*Create a shape for whiskers on the right side of the face and set the position and rotation.*/
+div.whiskerRight 
+{
+	height: 7px;
+	width: 60px;
+	background-color: transparent;
+	border-top: 1px solid #fff;
+	position: relative;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 50%;
+	transform: rotate(-15deg);
+	left: 120px;
+	top: -130px;
+}
+/*Create a shape for whiskers on the left side of the face and set the position and rotation.*/
+div.whiskerLeft 
+{
+	height: 7px;
+	width: 60px;
+	background-color: transparent;
+	border-top: 1px solid #fff;
+	position: relative;
+	border-top-left-radius: 100%;
+	border-top-right-radius: 50%;
+	transform: rotate(15deg);
+	left: -30px;
+	top: -150px;
+	z-index: 1;
+}
+/*Create a collar using a rectangle and rotated 2 degrees to look more dug into the fur. Set position and color.*/
+div.collar 
+{
+	background: FireBrick;
+	position: relative;
+	height: 7px;
+	width: 115px;
+	top: -2px;
+	left: 25px;
+	text-align: center;
+	z-index: 1;
+	transform: rotate(-2deg);
+}
+/*Create a collar tag and set position and color.*/
+div.collarTag 
+{
+	background: gold;
+	position: relative;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	top: 5px;
+	left: 45px;
+}
+/*Create the shape for the torso and set the color and position.*/
+div.torso
+{  
+	background-color: BurlyWood;
+	height: 120px;
+	width: 180px;
+	position: relative;
+	left: 0;
+	bottom: 15px; 
+	border-radius: 55px 65px 35px 30px;
+}
+/*Create another shape identical to the torso only smaller and different color to match a cats stomach.*/
+div.stomach
+{  
+	background-color: white;
+	height: 80px;
+	width: 100px;
+	position: relative;
+	left: 35px;
+	bottom: -20px; 
+	border-radius: 55px 65px 35px 30px;
+}
+/*Create the shape for the paws.*/
+div.pawLeft, div.pawRight
+{   
+	background: #404040;  
+	height: 10px;
+	width: 25px; 
+	position: relative;
+	border-radius: 0 0 10px 10px;
+}
+/*Set position for the left paw.*/
+div.pawLeft 
+{  
+   top: 40px;
+	left: 50px;
+}
+/*Set position for the right paw.*/
+div.pawRight 
+{ 
+	top: 30px;
+	left: 100px;
+}
+/*Create the shape for the tail, and set position and color.*/
+div.tail 
+{ 
+	background: #404040;
+	width: 100px;  
+	height: 20px;
+	position: relative;
+	top: 0px;
+	left: 145px; 
+	border-radius: 0 20px 20px 0;
+	z-index: -1;
+}
