@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Holtwood One SC', serif; letter-spacing: 5px; border-radius: 8px; user-select: none; text-align: center;}
+.warning
+{
+	margin: 15px auto;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: rgba(255,0,0,.5);
+	width: 40%;
+}
+nav {position: sticky; top:0;box-shadow: 0 8px 6px -6px black;}
+nav > ul > li, nav > ul > li > a {display: inline-block;}
+nav > ul
+{
+	background-color: #CD5C5C;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+nav > ul > li > a:hover
+{
+	background-color: rosybrown;
+}
+nav > ul > li > a 
+{
+	text-decoration: none;
+	padding: 10px;
+	font-size: 18px;
+	background-color: #FFF8DC;
+	color: black;
+	margin: 8px 3px;
+	border-radius: 5px;
+	transition: background-color 500ms;
+}
+main
+{
+	width: 75vw;
+	height: auto;
+	margin: 0 auto;
+	background-color: #FFF8DC;
+	padding: 20px;
+	border: 3px solid #DC143C;
+}
+p 
+{
+	border-radius: 5px;
+	margin: 10px auto;
+	width: 75%;
+	padding: 5px;
+	font-size: 20px;
+}
+.valid 
+{
+	background-color: rgba(0,255,0,.5);
+	font-size: 20px;
+	width: 70%;
+	margin: 10px auto;
+}
+#success
+{
+	width: 50%;
+}
+.invalid 
+{
+	background-color: rgba(255,0,0,.5);
+	font-size: 20px;
+	width: 70%;
+	margin: 15px auto;
+	padding: 15px;
+}
+ul.list
+{
+	margin: 0 20px;
+	padding: 0 20px;
+	width: 200px;
+}
+ul.list li
+{
+	padding: 2px;
+	list-style-type: none;
+	margin: 5px 0;
+}
+table 
+{
+	border-collapse: collapse;
+	margin: 20px auto;
+	background-color: #DCDCDC;
+	padding: 20px;
+	font-size: 20px;
+	width: 100%;
+}
+th
+{
+	font-size: 20px;
+}
+th, td
+{
+	border: 3px solid #DC143C;
+	border-radius: 8px;
+	padding: 12px;
+	height: 30px;
+}
+table > tbody > tr > td > a:hover
+{
+	transform: scale(.9);
+}
+
+table > tbody > tr > td > a 
+{
+	display: block;
+	text-decoration: none;
+	padding: 8px;
+	margin: 3px;
+	background-color: #FFF8DC;
+	border-radius: 8px;
+	color: black;
+	border: 3px outset wheat;
+	transition: transform 500ms;
+}
+body
+{
+	background-image: url('../img/pink_rice.png');
+}
+form, input 
+{
+	display: block;
+	border: 3px solid #DC143C;
+}
+input 
+{
+	width: 50%; 
+	text-align: left;
+	padding: 5px;
+	margin: 10px 0;
+}
+button
+{
+	background-color: #FFF8DC;
+	cursor: pointer;
+	border: 3px solid #DC143C;
+	text-align: center;
+	padding: 15px;
+}
+form
+{
+	width: 80%;
+	height: auto;
+	background-color: #DCDCDC;
+	margin: 0 auto;
+	padding: 10px;
+}
+button.submit:hover {background-color: #006400; border: 3px solid #006400;}
+button.reset:hover {background-color: #DC143C; border: 3px solid #DC143C;}
+#field
+{
+	padding: 25px;
+	margin: 25px auto;
+	font-size: 25px;
+	font-family: "Times New Roman", Times, serif;
+}
+#username, #pw, #cpw
+{
+	padding: 25px;
+	margin: 25px auto;
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+#secret, #main-form, #main-button
+{
+	padding: 25px;
+	margin: 25px auto;
+	font-size: 30px;
+}
+#but
+{
+	padding: 25px;
+	margin: 50px;
+	font-size: 30px;
+}
+.buttons, .header
+{
+	text-align: center;
+}
+h1, h2
+{
+	padding: 20px;
+}
+h1.prod
+{
+	font-size: 65px;
+}
+h2.prod
+{
+	font-size: 45px;
+}
+p.prod, li.prod
+{
+	font-size: 30px;
+}
+p.product
+{
+	font-size: 30px;
+	text-decoration: underline;
+}
+.home
+{
+	font-size: 25px;
+	text-align: justify;
+}
+#logo
+{
+	margin-right: 350px;
+	padding-top: 7px;
+	margin-top: 3px;
+}
+#pimgs
+{
+	height: 100px;
+	width: auto;
+}
+#pimg
+{
+	height: 200px;
+	width: 200px;
+}
+#desc
+{
+	font-size: 15px;
+}
+#carts
+{
+	margin: 10px auto;
+	border: none;
+	padding: 10px;
+	font-size: 15px;
+	width: 5vw;
+	text-align: center;
+}
+#cart-button, #ccart
+{
+	border: none;
+	width: auto;
+	height: 60px;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 15px;
+	background-color: #FFF8DC;
+	color: black;
+	margin: 13px;
+	border-radius: 5px;
+	transition: background-color 500ms;
+}
+#cart-button:hover, #ccart:hover
+{
+	transform: scale(.9);
+}
+#addcart
+{
+	border: none;
+	padding: 10px;
+	margin-left: 10px;
+}
+#prod
+{
+	width: 85vw;
+}
+@media screen and (max-width: 1500px) {
+  main {
+		width: 90vw;
+  }
+  #logo {
+		margin-right: 250px;
+	}
+}
+@media screen and (max-width: 1100px) {
+  main {
+		width: 98vw;
+  }
+  #logo {
+		margin-right: 150px;
+	}
+	nav > ul > li > a  {
+		padding: 7px;
+		font-size: 15px;
+	}
+	table, th {
+		font-size: 15px;
+	}
+}

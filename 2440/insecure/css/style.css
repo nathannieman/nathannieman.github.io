@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {margin: 0; padding: 0; box-sizing: border-box; font-family: 'Fredoka One', cursive;, cursive; letter-spacing: 5px; border-radius: 8px; user-select: none;}
+body
+{
+	background-image: url('../img/pink_rice.png');
+}
+
+form, input 
+{
+	display: block;
+	border: 3px solid #006400;
+}
+label
+{
+	background-color: #90EE90;
+	border: 3px solid #006400;
+	display: block;
+   text-align: center;
+	width: 50%;
+}
+input 
+{
+	width: 50%;
+}
+button
+{
+	background-color: #90EE90;
+	cursor: pointer;
+	border: 3px solid #006400;
+	text-align: center;
+}
+form 
+{
+	width: 60%;
+	height: auto;
+	background-image: url('../img/green_cup.png');
+}
+
+p.warning {text-align: center; margin: 50px auto; padding: 30px; background-color: rgba(150,0,0); width: 50%; border-radius: 8px; color: white; font-size: 25px;}
+button.submit:hover {background-color: #006400;}
+button.reset:hover {background-color: #DC143C; border: 3px solid #DC143C;}
+
+#field
+{
+	padding: 25px;
+	margin: 25px auto;
+	font-size: 30px;
+}
+#but
+{
+	padding: 25px;
+	margin: 50px;
+	font-size: 30px;
+}
+.buttons
+{
+	text-align: center;
+}
+.stuff
+{
+	padding: 20px;
+}
+.header
+{
+	text-align: center;
+}
+h2
+{
+	padding: 40px;
+}

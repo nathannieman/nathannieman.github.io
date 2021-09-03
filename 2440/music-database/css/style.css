@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rum+Raisin&display=swap');
+*{margin: 0; padding: 0; color: black; user-select: none; border-radius: 4px; font-family: 'Rum Raisin', sans-serif;}
+body
+{
+	background-image: url('../img/bush.png');
+}
+#home
+{
+	background-color: #87CEFA;
+	border: 3px solid #000080;
+	width: 50%;
+	height: auto;
+	margin: 40px auto;
+}
+#click
+{
+	height: 90px;
+	width: 140px;
+	border: 2px solid #000080;
+	border-radius: 30%;
+	background-color: #00FF7F;
+	font-size: 32px;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#click:hover
+{
+	background-color: Tomato;
+}
+
+table
+{
+	width: 55%;
+	margin: 20px auto;
+	font-weight: bold;
+}
+
+th, h1
+{
+	font-size: 40px;
+	text-align: center;
+	padding: 10px;
+}
+#butt
+{
+	text-align: center;
+	padding: 10px;
+	margin: 20px;
+	
+}
+table, th, td 
+{
+  border: 2px solid #000080;
+  border-collapse: collapse;
+  background-color: #87CEFA;
+  padding: 10px;
+}
+#tshirt
+{
+	border-collapse: collapse;
+	background-color: black;
+	padding: 25px;
+	font-size: 35px;
+	text-align: center;
+}
+option, select, input, textarea
+{
+	font-size: 30px;
+}
+.button
+{
+	font-size: 30px;
+	background-color: #FAEBD7;
+	padding: 8px; 
+	margin: 15px;
+}
+.h1
+{
+	border: 2px solid #000080;
+	background-color: #00FFFF;
+	width: 55%;
+	margin: 5px auto;
+}
+h2
+{
+	font-size: 30px;
+	padding: 10px;
+	border: 2px solid #000080;
+	background-color: #00FFFF;
+	width: 55%;
+	margin: 5px auto;
+}
+.h2
+{
+	text-align: center;
+	padding-top: 10px;
+}
+ul 
+{
+	list-style-type: none;
+	margin: 10;
+	padding: 10;
+	overflow: hidden;
+	background-color: #4169E1;
+	font-size: 35px;
+	border-bottom: 3px solid #000080;
+	border-top: none;
+	
+}
+.navlist-right
+{ 
+   float:right; 
+} 
+
+li 
+{
+  float: left;
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+li a 
+{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover 
+{
+  background-color: #87CEEB;
+  text-shadow: 2px 2px 5px #000080;
+}
+
+li a.active 
+{
+  text-decoration: underline;
+}
+p.warning {text-align: center; margin: 20px auto; padding: 10px; background-color: rgba(150,0,0); width: 55%; border-radius: 8px; color: white; font-size: 35px;}
