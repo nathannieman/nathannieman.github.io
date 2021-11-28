@@ -19,10 +19,6 @@ li
 	margin: 20px;
 	font-size: 20px;
 }
-#brand:hover
-{
-	text-decoration: underline;
-}
 
 @keyframes spin {
   100% {transform: rotate(1turn); }
