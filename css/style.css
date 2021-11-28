@@ -291,9 +291,12 @@ i
     margin: 40px auto;
   }
 }
-
-@media (max-width: 1024px) {
-	nav.elementor-nav-menu--dropdown.elementor-nav-menu__container 
+nav.elementor-nav-menu--dropdown.elementor-nav-menu__container {
+    display: none;
+}	
+	
+@media screen and (max-width: 1024px) {
+	div.dropdown-content
 	{
 		display: none;
 	}
