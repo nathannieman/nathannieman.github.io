@@ -16,8 +16,8 @@ h1
 }
 li
 {
-	margin: 20px;
-	font-size: 20px;
+	margin: 10px;
+	font-size: 30px;
 }
 
 @keyframes spin {
@@ -110,6 +110,7 @@ li a:hover
 {
 	text-align: center;
 	word-spacing: 20px;
+	font-size: 25px;
 }
 
 #quote
@@ -148,6 +149,7 @@ h2
 	border: 2px solid var(--blue);
 	background-image: url('../img/dark.png');
 	padding: 15px;
+	border-radius: 5%;
 }
 
 i
