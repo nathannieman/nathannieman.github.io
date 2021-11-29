@@ -559,7 +559,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 50% 20% / 10% 40%;
+  border-radius: 5%;
 }
 
 @media (min-width: 576px) {
